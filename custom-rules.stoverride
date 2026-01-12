@@ -1,0 +1,8 @@
+name: 我的自定义规则
+desc: Github 托管，防订阅覆盖
+
+prepend-rules:
+    - DOMAIN-KEYWORD,apple-replay,OpenAI
+
+dns:
+    - '+.unknowntec.com'
