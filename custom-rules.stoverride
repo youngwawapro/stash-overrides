@@ -5,4 +5,4 @@ prepend-rules:
     - DOMAIN-KEYWORD,apple-replay,OpenAI
 
 dns:
-    - '+.unknowntec.com'
+    - +.unknowntec.com
