@@ -4,5 +4,5 @@ desc: Github 托管，防订阅覆盖
 prepend-rules:
     - DOMAIN-KEYWORD,apple-replay,OpenAI
 
-dns:
-    - +.unknowntec.com
+# dns:
+#    - +.unknowntec.com
