@@ -3,6 +3,8 @@ desc: Github 托管，防订阅覆盖
 
 prepend-rules:
     - DOMAIN-KEYWORD,apple-relay,🧲 OpenAI
+    - DOMAIN-SUFFIX,vercel.app,♻️ 手动切换
+    - DOMAIN-SUFFIX,ultra.me,🧲 OpenAI
 
 dns:
     fake-ip-filter:
