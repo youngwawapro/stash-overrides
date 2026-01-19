@@ -5,7 +5,7 @@ prepend-rules:
     - DOMAIN-KEYWORD,apple-relay,🧲 OpenAI
     - DOMAIN-SUFFIX,vercel.app,♻️ 手动切换
     - DOMAIN-SUFFIX,ultra.me,🧲 OpenAI
-    - DOMAIN-SUFFIX,t-mobilie.com,🧲 OpenAI
+    - DOMAIN-SUFFIX,t-mobile.com,🧲 OpenAI
 
 dns:
     fake-ip-filter:
