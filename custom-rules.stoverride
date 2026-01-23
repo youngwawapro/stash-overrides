@@ -6,6 +6,8 @@ prepend-rules:
     - DOMAIN-SUFFIX,vercel.app,♻️ 手动切换
     - DOMAIN-SUFFIX,ultra.me,🧲 OpenAI
     - DOMAIN-SUFFIX,t-mobile.com,🧲 OpenAI
+    - DOMAIN-SUFFIX,by.ltd,🧲 OpenAI
+    - DOMAIN-SUFFIX,bws.lol, DIRECT
 
 dns:
     fake-ip-filter:
