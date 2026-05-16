@@ -1,0 +1,21 @@
+[YAML]
++rules:
+  # --- Alibaba/Aliyun DIRECT ---
+  - DOMAIN-SUFFIX,aliyun.com,🌏 国内网站
+  - DOMAIN-SUFFIX,alibabacloud.com,🌏 国内网站
+  - DOMAIN-SUFFIX,aliyuncs.com,🌏 国内网站
+  - DOMAIN-SUFFIX,alicdn.com,🌏 国内网站
+  - DOMAIN-SUFFIX,alibaba.com,🌏 国内网站
+  - DOMAIN-SUFFIX,alipay.com,🌏 国内网站
+  - DOMAIN-SUFFIX,alimama.com,🌏 国内网站
+  - DOMAIN-SUFFIX,tmall.com,🌏 国内网站
+  - DOMAIN-SUFFIX,taobao.com,🌏 国内网站
+  # --- Stash rules adapted ---
+  - DOMAIN-KEYWORD,apple-relay,🧲 OpenAI
+  - DOMAIN-SUFFIX,vercel.app,♻️ 手动切换
+  - DOMAIN-SUFFIX,ultra.me,🧲 OpenAI
+  - DOMAIN-SUFFIX,t-mobile.com,🧲 OpenAI
+
+dns:
+  fake-ip-filter+:
+    - +.unknowntec.com
